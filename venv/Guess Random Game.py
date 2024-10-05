@@ -3,7 +3,6 @@ Pseudocode
 1. The user see the welcome title
 2. each guess has 5 limit, if the player is not guessing the right game plus 1 bet and it will limit the play up to 5
 3. The game will ask if you wanna play or not if yes (the player will bet upto 5 limit), if no it will terminate the game
-
 """
 welcome = """
           😆 ❤ Welcome to Guessing Number Game ❤ 😆
