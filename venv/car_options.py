@@ -14,17 +14,20 @@ car_count = 0
 car_limit = 3
 
 while car_count < car_limit:
-    car = int(input("Please select the Option: "))
-    car_count += 1
-    if car == 1:
-     print("Start Engine!")
-     continue
-    elif car == 2:
-        print("Stop Engine")
-        continue
-    elif car == 3:
-        print("Bye")
-        break
-    else:
-     print("I Dont Understand")
+    try:
+        car = int(input("Please select the Option: "))
+        car_count += 1
+        if car == 1:
+            print("Start Engine!")
+            continue
+        elif car == 2:
+            print("Stop Engine")
+            continue
+        elif car == 3:
+            print("Bye")
+            break
+        else:
+            print("I Dont Understand")
+    except:
+        print("Invalid")
 
