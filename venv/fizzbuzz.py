@@ -1,4 +1,4 @@
-for i in range(1,15):
+for i in range(1,16):
     if i % 3 ==0 and i % 5 ==0:
         print("FizzBuzz")
     elif  i % 3==0:
@@ -7,5 +7,12 @@ for i in range(1,15):
         print("Buzz")
     else:
         print(i)
+
+
+"""
+scanner in = ne
+
+""""
+
 
 
