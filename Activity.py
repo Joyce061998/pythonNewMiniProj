@@ -42,3 +42,13 @@ print(area)
 Write a Python program that accepts the user's first and 
 last name and prints them in reverse order with a space between them.
 """
+#solution
+jamela1 = ["Jamela","Mejia"]
+jamela1.reverse()
+print(jamela1)
+#other solution
+
+fname= input("What is your 1st name: ")
+lname= input("What is your last name: ")
+print("My name is" + " " + f'{lname},{fname}')
+

@@ -29,11 +29,11 @@ player = input("Do you wanna play: Select Y/N: ")
 
 if player.upper() == "Y" or player.lower() == "y":
     secret_number =  100
-    i = 0
-    while i < 5:
+    loop = 0
+    while loop < 5:
         try:
             guess = int(input("Guess Number From 1-100"))
-            i += 1
+            loop += 1
             if guess ==secret_number:
                 print("You Win! 🥳 🥳")
                 break
@@ -42,12 +42,8 @@ if player.upper() == "Y" or player.lower() == "y":
                 continue
         except:
             print("Invalid Value") #It will return the value of invalid input to put a valid input
-    blntime = """        
-                                 Better  Luck Next Time!!!
-                                 You can Bet Again By Simple Run the Site
-                         """
 
-    print(blntime)
+
 elif player.lower() == "n" or player.upper() == "N":
     print(" 🫡 Play Next Time! 🫡")
 
