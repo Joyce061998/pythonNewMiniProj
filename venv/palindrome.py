@@ -5,3 +5,5 @@ if palindrome == palindrome1: # Step 3: Check if the original string is equal to
     print("The string is a palindrome!") # Step 4a: If they are the same, print that it's a palindrome
 else:
     print("The string is not a palindrome.") #Step 4b: If they are different, print that it's not a palindrome
+
+

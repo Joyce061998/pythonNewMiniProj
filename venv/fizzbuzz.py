@@ -13,10 +13,13 @@ for i in range(1,16):
 scanner in = ne
 
 """
-
+"""
 n = [5, 10, 15, 20, 25, 30]
 fn = list(filter(lambda x: x > 15, n))
 print(fn)
+
+"""
+
 
 
 
